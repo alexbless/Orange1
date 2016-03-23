@@ -1,0 +1,109 @@
+body {	
+}
+section {
+	height: 50px;
+}
+section {
+	padding: 50px 0;
+}
+/*NAVIGATION*/
+nav {
+	background: #FE7E00;
+	height: 60px;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 100;
+}
+/*nav logo*/
+nav > a {
+	font-family: 'Open Sans', sans-serif;
+	color:  #ffffff;
+	font-size: 26px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+	position: absolute;
+	left: 25px;
+	top: 10px;
+}
+nav > a > span {
+	font-family: 'Open Sans', sans-serif;
+	color:  #cfc91d;
+	text-align: left;
+	
+}
+/*nav links*/
+nav > ul {
+	position: absolute;
+	right: 25px;
+	top:5px;
+}
+nav > ul > li {
+	display: inline-block;
+	padding:0 15px;
+}
+nav > ul > li > a {
+	color: #ffffff;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+	color: #cfc91d;
+}
+.form {
+	float: right;
+	padding: 20px 20px;
+
+}
+
+.button .leftbutton {
+	background: #FE7E00;
+	width: 250px;
+	height: 35px;
+	color: #ffffff;
+	border-radius: 5px;
+	font-size: small;
+	font-weight: bold;
+}
+
+.button .rightbutton {
+	background: #7ACCC8;
+	width: 250px;
+	height: 35px;
+	color: #ffffff;
+	border-radius: 5px;
+	font-size: small;
+	font-weight: bold;
+}
+
+/*main Section*/
+.main  {
+		width: 100%;
+}
+.main {
+	display: inline-block;
+}
+
+.main p {
+	color: #FE7E00;
+	font-family: serif;
+	font-size: 35px	
+}
+
+
+.main span {
+	color: #7ACCC8;
+}
+footer {
+background: #7ACCC8;
+	height: 60px;
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index: 100;
+}
